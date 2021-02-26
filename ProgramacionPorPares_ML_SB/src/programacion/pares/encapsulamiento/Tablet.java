@@ -27,4 +27,13 @@ public class Tablet {
 	    this.capacidad = capacidad;
 	 }
 
+	public int duracionBateria() {
+	    
+	    if (capacidad<3000) {
+	      return 16;
+	    }else {
+	      
+	      return 24;
+	    }
+	 }
 }
