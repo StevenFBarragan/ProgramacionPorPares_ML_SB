@@ -38,6 +38,11 @@ public class Empleado {
 		public void setSalario(double salario) {
 			this.salario = salario;
 		}
-
+	@Override
+		public String toString() {
+			return "nombre=" + nombre + ", edad=" + edad + ", salario=" + salario + " ";
+		}
+		
+		public abstract boolean plus();
 
 }
